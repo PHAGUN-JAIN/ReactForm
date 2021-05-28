@@ -5,7 +5,6 @@ const input_style = {
 }
 
 const div_style = {
-    border: "2px solid black",
     width:"500px",
     margin: "0 auto",
     padding:"1.2rem"

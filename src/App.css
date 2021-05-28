@@ -1,13 +1,8 @@
-.App {
-  text-align: center;
-}
 * {
   padding: 0px;
   margin: 0px;
 }
 body {
-  max-width: 1200px;
-  margin: 3rem auto;
   padding: 1.2rem;
   overflow-y: scroll;
 }
