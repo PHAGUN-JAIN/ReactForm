@@ -2,6 +2,7 @@ import './App.css';
 import './components/Description';
 import Description from './components/Description';
 import Form from './components/Form';
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
     </header>
     <Description />
     <Form />
+    <Footer />
     </>
   );
 }

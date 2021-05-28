@@ -18,10 +18,6 @@ const div_style = {
     margin: "0 auto",
     padding:"1.2rem"
 }
-const dv_style = {
-    width: "100%",
-    margin: "0 auto"
-}
 export default class Form extends Component {
     render(){
         return(
