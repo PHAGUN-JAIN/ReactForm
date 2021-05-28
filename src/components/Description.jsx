@@ -19,9 +19,9 @@ export default class Description extends Component {
             <>
              <div style={div_style}>
                 <img src={sample} alt="event-poster" style = {img_style} />
-                <h3>
+                <h2>
                     Event Name!
-                </h3>
+                </h2>
                 <p>
                     Blah Blah <br />
                     Blah Blah <br />

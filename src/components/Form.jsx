@@ -8,7 +8,10 @@ const input_style = {
 const btn_style = {
     width: "12rem",
     padding: "1rem",
-    borderRadius:"5px"
+    borderRadius:"5px",
+    backgroundColor: "purple",
+    color: "#ffffff",
+    fontWeight: "bold"
 }
 const div_style = {
     width:"42vw",
