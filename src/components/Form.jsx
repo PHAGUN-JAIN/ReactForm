@@ -1,19 +1,30 @@
 import React, {Component} from "react";
 const input_style = {
-    width: "30rem",
-    lineHeight: "1.6rem"
+    width: "40vw",
+    lineHeight: "2rem",
+    border: "1px solid purple",
+    borderRadius: "4px"
 }
-
+const btn_style = {
+    width: "12rem",
+    padding: "1rem",
+    borderRadius:"5px"
+}
 const div_style = {
-    width:"500px",
+    width:"42vw",
     margin: "0 auto",
     padding:"1.2rem"
+}
+const dv_style = {
+    width: "100%",
+    margin: "0 auto"
 }
 export default class Form extends Component {
     render(){
         return(
             <>
             <div style={div_style}>
+            <div >
             <label htmlFor="name">First name:</label> <br />
             <input id="name" type="text" style={input_style}/><br /><br />
             <label htmlFor="lastname">Last Name:</label> <br />
@@ -37,9 +48,10 @@ export default class Form extends Component {
             <br />
             <br />
 
-            <button type="submit">
+            <button type="submit" style={btn_style}>
                 SUBMIT
             </button>
+            </div>
             </div>
             </>
         );
