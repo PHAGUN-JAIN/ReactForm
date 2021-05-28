@@ -25,6 +25,9 @@ export default class Description extends Component {
                     Blah Blah <br />
                     Blah Blah <br />
                 </p>
+                <br />
+                <br />
+                <br />
             </div>
             </>
         );
