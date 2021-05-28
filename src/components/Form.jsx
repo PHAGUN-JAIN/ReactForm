@@ -16,13 +16,18 @@ const btn_style = {
 const div_style = {
     width:"42vw",
     margin: "0 auto",
-    padding:"1.2rem"
+    padding:"1.2rem",
+    border: "1px solid black",
+    borderRadius: "15px",
+    boxShadow: "5px 6px rgb(43, 114, 221)",
+    zIndex: "9px"
 }
 export default class Form extends Component {
     render(){
         return(
             <>
             <div style={div_style}>
+                <h3>Registr Now!</h3> <br />
             <div >
             <label htmlFor="name">First name:</label> <br />
             <input id="name" type="text" style={input_style}/><br /><br />
