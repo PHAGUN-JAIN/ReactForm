@@ -6,3 +6,8 @@ body {
   padding: 1.2rem;
   overflow-y: scroll;
 }
+header{
+  height: 5rem;
+  background-color: rgb(168, 124, 238);
+  padding: 0.7rem;
+}
