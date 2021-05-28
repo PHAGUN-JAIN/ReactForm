@@ -19,13 +19,14 @@ export default class Footer extends Component {
         return(
             <>
             <div style={div_style}>
-            <img src={logo} alt="UCD-LOGO" style={img_style} />
-            <div style={div_style}>
-                  <a  style={socio_style} href="https://www.facebook.com/upes.ucd/?__tn__=%2Cd%2CP-R&eid=ARBFna9ebE8caW_GClw60yI_cWrgbX0FbRATJ6uHbSaLO72G81uK59hgtM_l9IfeKPZupM1qf5UcHt4u"> <i class="fab fa-facebook-f "></i> </a>
-                  <a  style={socio_style} href="https://www.instagram.com/ucd.upes/?hl=en"> <i class="fab fa-instagram "></i></a>
-                  <a  style={socio_style} href="https://www.linkedin.com/in/upesucd/"> <i class="fab fa-linkedin-in  "></i> </a>
-                  <a  style={socio_style} href="https://twitter.com/ucd_upes"> <i class="fab fa-twitter"></i></a>
-                </div>
+             <img src={logo} alt="UCD-LOGO" style={img_style} />
+             <div style={div_style}>
+                <a  style={socio_style} href="https://www.facebook.com/upes.ucd/?__tn__=%2Cd%2CP-R&eid=ARBFna9ebE8caW_GClw60yI_cWrgbX0FbRATJ6uHbSaLO72G81uK59hgtM_l9IfeKPZupM1qf5UcHt4u"> <i class="fab fa-facebook-f "></i> </a>
+                <a  style={socio_style} href="https://www.instagram.com/ucd.upes/?hl=en"> <i class="fab fa-instagram "></i></a>
+                <a  style={socio_style} href="https://www.linkedin.com/in/upesucd/"> <i class="fab fa-linkedin-in  "></i> </a>
+                <a  style={socio_style} href="https://twitter.com/ucd_upes"> <i class="fab fa-twitter"></i></a>
+             </div>
+             <span style={{color:"#fff"}}>All Rights Reserved | Copyright &copy;2021</span>
             </div>
           
             </>
