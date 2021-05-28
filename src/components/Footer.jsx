@@ -7,7 +7,6 @@ const div_style={
     padding: "1.2rem",
     marginTop: "2rem",
     textAlign: "center",
-    border: "1px solid black",
     backgroundColor: "#080808"
 }
 const socio_style={
