@@ -7,7 +7,10 @@ body {
   overflow-y: scroll;
 }
 header{
-  height: 5rem;
-  background-color: rgb(168, 124, 238);
+  height: 2rem;
+  background-color:rgb(184, 6, 175);
   padding: 0.7rem;
+}
+header h3{
+  color:#fff;
 }

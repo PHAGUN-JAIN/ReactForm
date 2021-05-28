@@ -7,7 +7,6 @@ function App() {
   return (
     <>
     <header>
-      <br />
       <h3>United Club Of Developers</h3>
     </header>
     <Description />

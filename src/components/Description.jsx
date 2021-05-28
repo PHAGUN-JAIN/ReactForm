@@ -10,7 +10,7 @@ const div_style = {
 }
 
 const img_style = {
-    maxWidth: "70vw"
+    maxWidth: "55vw"
 }
 export default class Description extends Component {
 

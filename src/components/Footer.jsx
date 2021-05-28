@@ -1,11 +1,11 @@
 import React, {Component} from "react";
 import logo from "./static/logo.png";
 const img_style ={
-    width: "15vw"
+    width: "12vw"
 }
 const div_style={
-    padding: "1.2rem",
-    marginTop: "2rem",
+    padding: "1rem",
+    marginTop: "1rem",
     textAlign: "center",
     backgroundColor: "#080808"
 }
