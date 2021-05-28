@@ -9,12 +9,5 @@ body {
   max-width: 1200px;
   margin: 3rem auto;
   padding: 1.2rem;
-  align-items: center;
-  text-align: center;
   overflow-y: scroll;
-}
-form {
-  margin: 0 auto;
-  width: 100vw;
-  align-items: center;
 }
